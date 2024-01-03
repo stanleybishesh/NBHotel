@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <script src="https://kit.fontawesome.com/39dfc6a709.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1><a href="index.html"><span class="heading_text">NB</span>Hotel</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html" class="current">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact-form py-3">
+        <div class="container">
+            <h2 class="heading-about"><span class="text-primary">Contact</span> Us</h2>
+            <p>Please fill out the form below to contact us.</p>
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="box">
+            <i class="fa-solid fa-hotel fa-3x"></i>
+            <h2>Location</h2>
+            <p>Imadol, Lalitpur</p>
+        </div>
+        <div class="box" id="active">
+            <i class="fa-solid fa-phone fa-3x"></i>
+            <h2>Phone number</h2>
+            <p>(977) 9813938152</p>
+            <p>(977) 9862213521</p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-envelope fa-3x"></i>
+            <h2>Email Address</h2>
+            <p>bisheshganeshshrestha@kathford.edu.np</p>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>NBHotel &copy; 2023, All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
